@@ -38,7 +38,7 @@ createApp({
 
         addElement(){
             console.log("element added");
-            const newerTask = {...this.newTask}
+            const newerTask = {...this.newTask} // grazie ai pokemon e all'operatore 
             this.todo.unshift(newerTask)
             this.newTask.task = "";
         },
