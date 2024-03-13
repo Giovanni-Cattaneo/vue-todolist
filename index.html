@@ -10,6 +10,10 @@
         .done{
             text-decoration: line-through;
         }
+
+        li{
+            line-height: 2rem;
+        }
     </style>
 </head>
 
@@ -19,7 +23,8 @@
         <ul>
             <!-- v-for cicla all'interno dell'array todo, v-bind:key attributo di vue associato ad ogni li generato dal ciclo, se la proprietà done dell'oggetto task.done è true associamo la classe done e quindi la liena trough -->
             <li v-for="(task, index) in todo" v-bind:key="index" v-bind:class="{ done : task.done}">
-                {{task.task}}
+                {{task.task}} 
+                <button @click="removeElement">x</button>
             </li>
 
         </ul>
