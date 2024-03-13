@@ -49,10 +49,11 @@ createApp({
         },
 
         invertProperty(index){
-            if (this.todo[index].done != false) {
-                this.todo.task.classlist.remove("done")
+            index = this.todo[index]
+            if (index.done !== false) {
+                index.classList.remove("done")
             } else {
-                this.todo.task.classList.add("done")
+                index.classList.add("done")
             }
         }
     }
