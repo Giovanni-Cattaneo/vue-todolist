@@ -46,6 +46,14 @@ createApp({
         removeElement(index){
             index = this.todo[index]
             this.todo.splice(index, 1)
+        },
+
+        invertProperty(index){
+            if (this.todo[index].done != false) {
+                this.todo.task.classlist.remove("done")
+            } else {
+                this.todo.task.classList.add("done")
+            }
         }
     }
 }).mount("#app")
