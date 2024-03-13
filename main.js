@@ -27,7 +27,7 @@ createApp({
             },
         ],
         newTask : {
-            task: "ciao",
+            task: "",
             done: false
         }
         }
@@ -38,8 +38,7 @@ createApp({
 
         addElement(){
             console.log("element added");
-            this.newTask.task = 
-            this.todo.unshift(this.newTask.task)
+            this.todo.unshift(this.newTask)
         },
 
         removeElement(index){
