@@ -25,7 +25,11 @@ createApp({
                 task : "Learn vuejs",
                 done : false
             },
-        ]
+        ],
+        newTask : {
+            task: "",
+            done: false,
+        }
         }
         
     },
@@ -34,6 +38,7 @@ createApp({
 
         addElement(){
             console.log("element added");
+            this.todo.unshift(this.newTask)
         },
 
         removeElement(index){
