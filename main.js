@@ -38,7 +38,9 @@ createApp({
 
         addElement(){
             console.log("element added");
-            this.todo.unshift(this.newTask)
+            const newerTask = {...this.newTask}
+            this.todo.unshift(newerTask)
+            this.newTask.task = "";
         },
 
         removeElement(index){
