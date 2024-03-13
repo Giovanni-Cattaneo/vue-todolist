@@ -15,22 +15,29 @@ createApp({
             },
             {
                 task : "Learn laravel",
-                done : "false"
+                done : false
             },
             {
                 task : "Learn c++",
-                done : "false"
+                done : false
             },
             {
                 task : "Learn vuejs",
-                done : "false"
+                done : false
             },
         ]
         }
-
+        
     },
     
     methods: {
+
+        istrue(){
+            if (this.todo.done = true) {
+                    this.todo.task.style.textDecoration ="line-through"
+            }
+        }
     }
 }).mount("#app")
+
 
