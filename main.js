@@ -32,13 +32,13 @@ createApp({
     
     methods: {
 
-        addEelement(){
+        addElement(){
             console.log("element added");
         },
 
         removeElement(index){
             index = this.todo[index]
-            console.log(this.todo.index);
+            this.todo.splice(index, 1)
         }
     }
 }).mount("#app")
