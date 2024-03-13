@@ -7,21 +7,22 @@ createApp({
         return{
             todo : [{
                 task : "Learn js",
+                done : true
+            },
+            {
+                task : "Learn php",
+                done: false
+            },
+            {
+                task : "Learn laravel",
                 done : "false"
             },
             {
-                task : "Learn js"
-            },
-            {
-                task : "Learn js",
+                task : "Learn c++",
                 done : "false"
             },
             {
-                task : "Learn js",
-                done : "false"
-            },
-            {
-                task : "Learn js",
+                task : "Learn vuejs",
                 done : "false"
             },
         ]
