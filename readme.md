@@ -14,7 +14,7 @@ Stampare all'interno di una lista HTML un item per ogni todo. Se la proprietà d
 
 MILESTONE 2
 
-Visualizzare a fianco ad ogni item ha una "x": cliccando su di essa, il todo viene rimosso dalla lista.
+Visualizzare a fianco ad ogni item una "x": cliccando su di essa, il todo viene rimosso dalla lista.
 
 MILESTONE 3
 

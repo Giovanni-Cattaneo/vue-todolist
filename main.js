@@ -15,7 +15,7 @@ createApp({
             },
             {
                 task : "Learn laravel",
-                done : false
+                done : true
             },
             {
                 task : "Learn c++",
@@ -31,12 +31,6 @@ createApp({
     },
     
     methods: {
-
-        istrue(){
-            if (this.todo.done = true) {
-                    this.todo.task.style.textDecoration ="line-through"
-            }
-        }
     }
 }).mount("#app")
 
