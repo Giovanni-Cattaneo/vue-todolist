@@ -33,7 +33,7 @@ createApp({
     methods: {
 
         removeElement(){
-            console.log("removed");
+            console.log(this.todo.done);
         }
     }
 }).mount("#app")
